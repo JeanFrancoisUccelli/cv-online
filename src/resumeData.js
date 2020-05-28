@@ -1,107 +1,133 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Hamdada Yacine",
-    "role": "React and Node trainer at the Wild Code School",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like to learn about new technologies, to share my knowledge and surfing in my free time",
-    "blockchain" :"Blockchain enthusiaste",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  imagebaseurl: "https://rbhatia46.github.io/",
+  name: "Jeff UCCELLI",
+  role:
+    "Web and mobile junior developer currently student at the Wild Code School (Marseille - France)",
+  linkedinId: "www.linkedin.com/in/jeff-uccelli",
+  skypeid: "",
+  roleDescription:
+    "I like to learn about new technologies, to share my knowledge and riding in my free time",
+  blockchain: "Blockchain enthusiaste",
+  socialLinks: [
+    {
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/jeff-uccelli",
+      className: "fa fa-linkedin",
+    },
+    {
+      name: "github",
+      url: "http://github.com/jeanfrancoisuccelli",
+      className: "fa fa-github",
+    },
+    // {
+    //   name: "",
+    //   url: "",
+    //   className: "fa fa-twitter",
+    // },
+  ],
+  aboutme:
+    "I have always been passionate about IT (and more recently smartphones and connected objects) and I have always made sure to integrate it into my different professional experiences, but it is now appropriate to make it my profession, in practice.",
+  address: "France",
+  website: "https://github.com/JeanFrancoisUccelli",
+  education: [
+    {
+      UniversityName: "Wild Code School",
+      specialization: "Web and Mobile junior Dev",
+      MonthOfPassing: "Mars to Jully",
+      YearOfPassing: "2020",
+      Achievements: "traineeship and diploma",
+    },
+    {
+      UniversityName: "St Jerôme Faculty",
+      specialization: "Nature and sciences",
+      MonthOfPassing: "Juin",
+      YearOfPassing: "1993",
+      Achievements: "Diploma",
+    },
+  ],
+  work: [
+    {
+      CompanyName: "OrthoConcept",
+      specialization: "digital prosthetist",
+      MonthOfLeaving: "Feb",
+      YearOfLeaving: "2020",
+      Achievements: "design, digitization and digital resin printing",
+    },
+    {
+      CompanyName: "Vacher Patrick Laboratory",
+      specialization: "prosthetist",
+      MonthOfLeaving: "Nov",
+      YearOfLeaving: "2007",
+      Achievements: "Back Office Gestion (stock, planning, shipping)",
+    },
+
+    {
+      CompanyName: "ECF + Liberty ",
+      specialization: "Driving School Manager & Monitor",
+      MonthOfLeaving: "Mars",
+      YearOfLeaving: "2003",
+      Achievements: "",
+    },
+  ],
+  skillsDescription: "Your skills here",
+  skills: [
+    {
+      skillname: "HTML5",
+    },
+    {
+      skillname: "CSS3",
+    },
+    {
+      skillname: "Reactjs",
+    },
+    {
+      skillname: "Node",
+    },
+  ],
+  portfolio: [
+    {
+      name: "Triz-Quiz",
+      description: "web app responsive",
+      imgurl: "https://zupimages.net/up/20/21/s3dr.jpg",
+      url: "https://trizz.netlify.app/",
+    },
+    {
+      name: "MCU - Marvel",
+      description: "web app responsive",
+      imgurl: "https://wallpaperaccess.com/full/267469.jpg",
+      url: "https://mcu-marvel.netlify.app",
+    },
+    {
+      name: "Geek Trotter",
+      description: "school web app hackathon",
+      imgurl:
+        "https://img.freepik.com/photos-gratuite/ciel-bleu-fantastique_1203-1929.jpg",
+      url: "https://go-out-and-dream-during-containment.netlify.app",
+    },
+    {
+      name: "Wild Game List",
+      description: "School checkpoint web app",
+      imgurl:
+        "https://media.rawg.io/media/screenshots/1ac/1ac19f31974314855ad7be266adeb500.jpg",
+      url: "https://my-tube-app.netlify.app",
+    },
+    {
+      name: "My Tube App",
+      description: "Parallel project to learn react redux and test",
+      imgurl: "https://zupimages.net/up/20/22/sno3.png",
+      url: "https://wild-games-list.netlify.app",
+    },
+  ],
+  testimonials: [
+    {
+      description: "This is a sample testimonial",
+      name: "Some technical guy",
+    },
+    {
+      description: "This is a sample testimonial",
+      name: "Some technical guy",
+    },
+  ],
+};
+
+export default resumeData;
