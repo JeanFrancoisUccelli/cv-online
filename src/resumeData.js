@@ -28,7 +28,7 @@ let resumeData = {
   aboutme:
     "I have always been passionate about IT (and more recently smartphones and connected objects) and I have always made sure to integrate it into my different professional experiences, but it is now appropriate to make it my profession, in practice.",
   address: "France",
-  website: "https://github.com/JeanFrancoisUccelli",
+  website: "https://www.linkedin.com/in/jeff-uccelli",
   education: [
     {
       UniversityName: "Wild Code School",
