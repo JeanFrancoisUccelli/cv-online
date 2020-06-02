@@ -109,13 +109,13 @@ let resumeData = {
       description: "School checkpoint web app",
       imgurl:
         "https://media.rawg.io/media/screenshots/1ac/1ac19f31974314855ad7be266adeb500.jpg",
-      url: "https://my-tube-app.netlify.app",
+      url: "https://wild-games-list.netlify.app",
     },
     {
       name: "My Tube App",
       description: "Parallel project to learn react redux and test",
       imgurl: "https://zupimages.net/up/20/22/sno3.png",
-      url: "https://wild-games-list.netlify.app",
+      url: "https://my-tube-app.netlify.app",
     },
   ],
   testimonials: [
