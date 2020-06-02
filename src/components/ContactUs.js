@@ -28,12 +28,12 @@ export default class ContactUs extends Component {
                 </a>
               </h4>
               <h4>
-                <a href="https://drive.google.com/file/d/1DQg5xOt5-a3lf8iwgnN79Ia-7aGIxUGj/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing">
                   Mon CV en Francais au format pdf
                 </a>
               </h4>
               <h4>
-                <a href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1DQg5xOt5-a3lf8iwgnN79Ia-7aGIxUGj/view?usp=sharing">
                   My CV in English in pdf format
                 </a>
               </h4>
