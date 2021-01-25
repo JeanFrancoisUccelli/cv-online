@@ -17,7 +17,7 @@ export default class ContactUs extends Component {
               <h4>
                 <a
                   href="https://www.linkedin.com/in/jeff-uccelli"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Linked in :{resumeData.linkedinId}
                 </a>
@@ -30,7 +30,7 @@ export default class ContactUs extends Component {
               <h4>
                 <a
                   href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Mon CV en Francais au format pdf
                 </a>
@@ -38,7 +38,7 @@ export default class ContactUs extends Component {
               <h4>
                 <a
                   href="https://drive.google.com/file/d/1rF1SQpkz_sWxeLxjQnxRL-z6hGxyaXY4/view?usp=sharing"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   My CV in English in pdf format
                 </a>
