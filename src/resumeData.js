@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Jeff UCCELLI",
   role:
-    "Web and mobile junior developer currently student at the Wild Code School (Marseille - France)",
+    "Web and mobile junior developer currently intern for 6 month to validate my cursus at the Wild Code School (Marseille - France)",
   linkedinId: "www.linkedin.com/in/jeff-uccelli",
   skypeid: "",
   roleDescription:
@@ -46,6 +46,14 @@ let resumeData = {
     },
   ],
   work: [
+    {
+      CompanyName: "Telaqua",
+      specialization: "fullstack developer intern",
+      MonthOfLeaving: "Feb 2020 to ",
+      YearOfLeaving: "Mars 2021",
+      Achievements: "mockup and dev the Telaqua showcase",
+      link: "https://www.telaqua.com/fr",
+    },
     {
       CompanyName: "OrthoConcept",
       specialization: "digital prosthetist",
