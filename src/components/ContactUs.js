@@ -37,7 +37,7 @@ export default class ContactUs extends Component {
               </h4>
               <h4>
                 <a
-                  href="https://drive.google.com/file/d/1DQg5xOt5-a3lf8iwgnN79Ia-7aGIxUGj/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1rF1SQpkz_sWxeLxjQnxRL-z6hGxyaXY4/view?usp=sharing"
                   target="_blank"
                 >
                   My CV in English in pdf format
