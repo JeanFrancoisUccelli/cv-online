@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Jeff UCCELLI",
   role:
-    "Web and mobile junior developer currently intern for 6 month to validate my cursus at the Wild Code School (Marseille - France)",
+    "Web and mobile junior developer currently intern for 6 month in the Telaqua team (Marseille - France - telaqua.com), to validate my cursus at the Wild Code School (Marseille - France)",
   linkedinId: "www.linkedin.com/in/jeff-uccelli",
   skypeid: "",
   roleDescription:

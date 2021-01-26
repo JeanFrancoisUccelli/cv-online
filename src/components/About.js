@@ -25,6 +25,9 @@ export default class About extends Component {
                   <span>{resumeData.website}</span>
                   <br />
                   <span>Look at the bottom of this page for contact details</span>
+                  <a href="#contact">
+                    <img style={{ width:"18px", height:"18px", paddingLeft:"5px", paddingTop:"5px" }} src="images/round_keyboard_arrow_down_white_18dp.png" alt=""/>
+                  </a>
                 </p>
               </div>
             </div>
