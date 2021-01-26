@@ -378,7 +378,7 @@ ul#nav li.current a {
   -webkit-animation: wordpress 2s ease;
 }
 .css3 {
-  width: 45%;
+  width: 64%;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
@@ -398,7 +398,13 @@ ul#nav li.current a {
   -webkit-animation: jquery 2s ease;
 }
 .node {
-  width: 30%;
+  width: 60%;
+  -moz-animation: jquery 2s ease;
+  -webkit-animation: jquery 2s ease;
+}
+
+.typescript {
+  width: 48%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
 }
@@ -440,7 +446,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 40%;
   }
 }
 @-moz-keyframes jquery {
@@ -501,6 +507,14 @@ ul#nav li.current a {
   }
 }
 @-webkit-keyframes node {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@-webkit-keyframes typescript {
   0% {
     width: 0px;
   }
