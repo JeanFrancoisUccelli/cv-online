@@ -36,7 +36,7 @@ export default class ContactUs extends Component {
                   target="_blank" rel="noopener noreferrer"
                 > */}
                 <ReactGA.OutboundLink
-                  eventLabel="myLabel"
+                  eventLabel="clickToFrenchCV"
                   to="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
                   target="_blank"
                 >
@@ -44,13 +44,13 @@ export default class ContactUs extends Component {
                 </ReactGA.OutboundLink>
               </h4>
               <h4>
-                <a
-                  href="https://drive.google.com/file/d/1rF1SQpkz_sWxeLxjQnxRL-z6hGxyaXY4/view?usp=sharing"
+                <ReactGA.OutboundLink
+                  eventLabel="clickToEnglishCV"
+                  to="https://drive.google.com/file/d/1rF1SQpkz_sWxeLxjQnxRL-z6hGxyaXY4/view?usp=sharing"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
                   My CV in English in pdf format
-                </a>
+                </ReactGA.OutboundLink>
               </h4>
             </div>
           </aside>
