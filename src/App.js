@@ -7,6 +7,11 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-JTQQV5LNJP"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 class App extends Component {
   render() {
     return (
