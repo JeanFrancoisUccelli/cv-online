@@ -1,18 +1,9 @@
 import React, { Component } from "react";
-import ReactGA from 'react-ga';
+var ReactGA = require("react-ga");
 
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    const GAevent = (categoryName, eventName) => {
-      ReactGA.event({       
-          category: categoryName,  // Required
-          action: eventName,       // Required
-          label: 'labelName',       
-          value: 10,       
-          nonInteraction: false     
-      });   
-  }
     return (
       <section id="contact">
         <div className="row section-head">
@@ -28,7 +19,8 @@ export default class ContactUs extends Component {
               <h4>
                 <a
                   href="https://www.linkedin.com/in/jeff-uccelli"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Linked in :{resumeData.linkedinId}
                 </a>
@@ -39,18 +31,23 @@ export default class ContactUs extends Component {
                 </a>
               </h4>
               <h4>
-                <a
+                {/* <a
                   href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
                   target="_blank" rel="noopener noreferrer"
-                  onClick="GAevent('User','ClickMailFr')"
+                > */}
+                <ReactGA.OutboundLink
+                  eventLabel="myLabel"
+                  to="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
+                  target="_blank"
                 >
                   Mon CV en Francais au format pdf
-                </a>
+                </ReactGA.OutboundLink>
               </h4>
               <h4>
                 <a
                   href="https://drive.google.com/file/d/1rF1SQpkz_sWxeLxjQnxRL-z6hGxyaXY4/view?usp=sharing"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   My CV in English in pdf format
                 </a>
