@@ -9,15 +9,11 @@ import Footer from './components/Footer';
 import resumeData from './resumeData';
 
 import ReactGA from 'react-ga';
-// const TRACKING_ID = "UA-190907622-1"; // YOUR_OWN_TRACKING_ID
-// ReactGA.initialize(TRACKING_ID);
-const initGA = () => {       
-  ReactGA.initialize('UA-190907622-1'); // put your tracking id here
-} 
+const TRACKING_ID = "UA-190907622-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 class App extends Component {
   render() {
-    useEffect(() => { initGA(); }, []);
     return (
       <div className="App">
         <Header resumeData={resumeData}/>
