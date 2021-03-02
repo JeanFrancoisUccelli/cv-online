@@ -1,7 +1,18 @@
 import React, { Component } from "react";
+import ReactGA from 'react-ga';
+
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    const GAevent = (categoryName, eventName) => {
+      ReactGA.event({       
+          category: categoryName,  // Required
+          action: eventName,       // Required
+          label: 'labelName',       
+          value: 10,       
+          nonInteraction: false     
+      });   
+  }
     return (
       <section id="contact">
         <div className="row section-head">
@@ -31,6 +42,7 @@ export default class ContactUs extends Component {
                 <a
                   href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
                   target="_blank" rel="noopener noreferrer"
+                  onClick={ () => GAevent('User','ClickMailFr') }
                 >
                   Mon CV en Francais au format pdf
                 </a>
