@@ -42,7 +42,7 @@ export default class ContactUs extends Component {
                 <a
                   href="https://drive.google.com/file/d/1D5o6UD0n5d4Xoz-z22ma4hq-dFZi6eu1/view?usp=sharing"
                   target="_blank" rel="noopener noreferrer"
-                  onClick={ () => GAevent('User','ClickMailFr') }
+                  onClick="GAevent('User','ClickMailFr')"
                 >
                   Mon CV en Francais au format pdf
                 </a>
