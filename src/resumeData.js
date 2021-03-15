@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Jeff UCCELLI",
   role:
-    "Web and mobile junior developer currently intern for 6 month in the Telaqua team (Marseille - France - telaqua.com), to validate my cursus at the Wild Code School (Marseille - France)",
+    "Web and mobile junior developer, versatile graduate with one year of experience. Curious and rigorous I like teamwork and being a force for proposal",
   linkedinId: "www.linkedin.com/in/jeff-uccelli",
   skypeid: "",
   roleDescription:
@@ -26,7 +26,7 @@ let resumeData = {
     // },
   ],
   aboutme:
-    "I have always been passionate about IT (and more recently smartphones and connected objects) and I have always made sure to integrate it into my different professional experiences, but it is now appropriate to make it my profession, in practice.",
+    "Passionate about the world of the web and its technologies and endowed with a great curiosity, I graduated as a web and mobile developer after a desired and successful retraining. Versatile and with a year of experience, I specialize in the Front-end and the creation of website or application components to improve the user experience and his feelings, even if I am also capable to do web integration, back-end business logic, UX / UI, preferably working in agile methods. I am looking for new opportunities to express this passion",
   address: "France",
   website: "https://www.linkedin.com/in/jeff-uccelli",
   education: [
