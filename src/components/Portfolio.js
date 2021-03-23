@@ -23,7 +23,8 @@ export default class Porfolio extends Component {
                         </div>
                       </div>
                     </div>
-                  <a href={`${item.url}`} target="_blank" rel="noopener noreferrer">view</a>
+                  <a href={`${item.url}`} target="_blank" rel="noopener noreferrer">Démo</a><br/>
+                  <a href={`${item.githuburl}`} target="_blank" rel="noopener noreferrer">Repo Git hub</a>
                 </div>
               )
             })
