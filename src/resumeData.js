@@ -97,9 +97,16 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "Personal Weather App",
+      description: "with your city name, you'll know the weather",
+      imgurl: "https://zupimages.net/up/21/17/p12d.png",
+      url: "https://personal-weather-app.netlify.app",
+      githuburl: "https://github.com/JeanFrancoisUccelli/weather-react",
+    },
+    {
       name: "Telaqua",
       description: "Site vitrine",
-      imgurl: "https://zupimages.net/up/21/12/qa3h.png (NextJS)",
+      imgurl: "https://zupimages.net/up/21/12/qa3h.png",
       url: "telaqua.com",
       githuburl: "",
     },
