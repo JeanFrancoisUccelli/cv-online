@@ -37,7 +37,7 @@ export default class ContactUs extends Component {
                 > */}
                 <ReactGA.OutboundLink
                   eventLabel="clickToFrenchCV"
-                  to="https://drive.google.com/file/d/1kl2bt3-6jSku3AN_fYZN5Kt8qhxZhdzP/view?usp=sharing"
+                  to="https://drive.google.com/file/d/1g-zsYpCWHcoRWS1PFsixk3goAE4xcVv6/view?usp=sharing"
                   target="_blank"
                 >
                   Mon CV en Francais au format pdf
