@@ -49,6 +49,7 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
+            <img className="profile-pic" src="images/profilepic.jpg" alt="" />
               <h1 className="responsive-headline">
                 I am <i>{resumeData.name}.</i>
               </h1>
