@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Jeff UCCELLI",
   role:
-    "Web and mobile junior developer, versatile graduate with one year of experience. Curious and rigorous I like teamwork and being a force for proposal",
+    "Web and mobile developer, versatile graduate with one year of experience. Curious and rigorous I like teamwork and being a force for proposal",
   linkedinId: "www.linkedin.com/in/jeff-uccelli",
   skypeid: "",
   roleDescription:
